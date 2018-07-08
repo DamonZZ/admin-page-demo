@@ -1,5 +1,17 @@
-.head {
-    height: 50px;
-    background-color: gainsboro;
-    width: 100%;
+.aNav{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    float: right;
+    color: grey;
+}
+
+.pNav{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    float: right;
+    color: grey;  
+}
+
+.aNav:hover{
+    color:lightgray;
 }

@@ -1,0 +1,15 @@
+.main{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.divSplit{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.divSkynet{
+    margin: 10px;
+}

@@ -1,0 +1,76 @@
+.user {
+    height: 120px;
+    width: 100%;
+}
+
+.divUserImage{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imgUser {
+    width: auto;
+    height: 50px;
+}
+
+.userName{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.userPosition{
+    color: lightblue;
+    margin-top: -5px;
+}
+
+.ulNav{
+    height: calc(100% - 140px);
+    background-color: #50616d;
+    color: lightgrey;
+    /* padding-top: 3px; */
+}
+
+.menu-first{
+    /* height:45px;
+    line-height:45px; */
+    font-size: 14px;
+    font-weight: bold;
+    color: lightgray;
+    display:block;
+    /* margin-left: 5px; */
+}
+
+.menu-first:hover{
+    background-color: #424444;
+}
+.menu-first:visited{
+    background-color: #424444;
+}
+
+.menu-first i{
+    padding-right: 10px;
+}
+
+.menu-second a{
+    height:30px;
+    line-height:30px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #41555f;
+    padding-left: 40px;
+    color: lightgray;
+    font-size: 14px;
+}
+
+.liRight{
+    float: right;
+    vertical-align: middle;
+    padding-right: 0px;
+    margin-top: 3px;
+}
+
+.menu-second a:hover{
+    color: #258888;
+}

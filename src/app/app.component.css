@@ -1,13 +1,15 @@
 .left-nav {
     width: 200px;
     height: 100%;
-    background-color: black;
+    /* background-color: #161823; */
+    /* background-color: #424c50; */
+    background-color:#41555f;
     float: left;
 }
 
 .right-nav {
-    /* width: 200px; */
-    width: 40%;
+    width:calc(100% - 200px);
     height: 100%;
     float: left;
+    /* background-color: #e9e7ef; */
 }
