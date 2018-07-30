@@ -1,11 +1,53 @@
 <div class="main">
-    <div class="divSplit">
-      <div class="divSkynet" style="font-size: 15px;color: gray">
-        <p>Skynet Senior Service</p>
+  <div class="divSplit">
+    <!-- <div class="divSkynet" style="font-size: 15px;color: gray">
+        <p>RfqId</p>
+        <button class=""></button>
+      </div> -->
+    <form class="form-horizontal" #rfqIdForm="ngForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="inputEmail3" name="rfqId" [(ngModel)]="rfqId" placeholder="RfqId">
+        </div>
       </div>
-    </div>
-    <!-- <div class="divSplit">2</div>
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input name="version" type="text" class="form-control" [(ngModel)]="version" id="inputVersion" name="version" placeholder="Version">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="inputProperty1" [(ngModel)]="rfqProperty1" name="rfqProperty1" placeholder="Property1">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="inputProperty2" [(ngModel)]="rfqProperty2" name="rfqProperty2" placeholder="Property2">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="inputProperty3" [(ngModel)]="rfqProperty3" name="rfqProperty3" placeholder="Property3">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="inputProperty4" [(ngModel)]="rfqProperty4" name="rfqProperty4" placeholder="Property4">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="inputProperty5" [(ngModel)]="rfqProperty5" name="rfqProperty5" placeholder="Property5">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-12">
+          <button type="submit" class="btn btn-primary col-sm-4">Send</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- <div class="divSplit">2</div>
     <div class="divSplit">3</div>
     <div class="divSplit">4</div> -->
 </div>
-
