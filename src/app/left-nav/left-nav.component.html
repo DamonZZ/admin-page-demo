@@ -6,16 +6,30 @@
     </div>
 </div>
 <div class="ulNav">
-    <a href="#" class="nav-header menu-first nav-link"><i class="fa fa-tasks" aria-hidden="true"></i>Dashboard</a>
-    <a href="#userMeun" class="nav-header menu-first nav-link collapsed" data-toggle="collapse"><i class="fa fa-address-book" aria-hidden="true"></i>用户管理<i class="fa fa-angle-left liRight" aria-hidden="true"></i></a>
+    <a routerLink="" class="nav-header menu-first nav-link">
+        <i class="fa fa-tasks" aria-hidden="true"></i>Dashboard</a>
+    <a href="#userMeun" class="nav-header menu-first nav-link collapsed" data-toggle="collapse">
+        <i class="fa fa-address-book" aria-hidden="true"></i>Rfq
+        <i class="fa fa-angle-left liRight" aria-hidden="true"></i>
+    </a>
     <ul id="userMeun" class="navbar-nav collapse">
-        <li class="nav-item menu-second"><a class="nav-link" href="#">增加用户</a></li>
-        <li class="nav-item menu-second"><a class="nav-link" href="#">修改用户</a></li>
-        <li class="nav-item menu-second"><a class="nav-link" href="#">删除用户</a></li>
+        <li class="nav-item menu-second">
+            <a class="nav-link" href="#">Search</a>
+        </li>
+        <li class="nav-item menu-second">
+            <a class="nav-link" routerLink="/rfq">Send</a>
+        </li>
     </ul>
-    <a href="#articleMenu" class="nav-header menu-first nav-link collapsed" data-toggle="collapse"><i class="fa fa-list"></i>文章管理<i class="fa fa-angle-left liRight" aria-hidden="true"></i></a>
+    <a href="#articleMenu" class="nav-header menu-first nav-link collapsed" data-toggle="collapse">
+        <i class="fa fa-list"></i>User
+        <i class="fa fa-angle-left liRight" aria-hidden="true"></i>
+    </a>
     <ul id="articleMenu" class="navbar-nav collapse">
-        <li class="nav-item menu-second"><a class="nav-link" href="#">添加文章</a></li>
-        <li class="nav-item menu-second"><a class="nav-link" href="#">文章列表</a></li>
+        <li class="nav-item menu-second">
+            <a class="nav-link" href="#">Add</a>
+        </li>
+        <li class="nav-item menu-second">
+            <a class="nav-link" href="#">Update</a>
+        </li>
     </ul>
 </div>
