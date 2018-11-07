@@ -15,6 +15,7 @@ export class RfqSendComponent implements OnInit {
   rfqProperty3: string;
   rfqProperty4: string;
   rfqProperty5: string;
+  isPopup: boolean;
 
   http: HttpClient;
   rfqUri: string;
@@ -30,6 +31,7 @@ export class RfqSendComponent implements OnInit {
     this.rfqId = "";
     this.version = "";
     this.rfqUri = "http://localhost:8090/persist";
+    this.isPopup = false;
     this.rfqProperty1 = "";
     this.rfqProperty2 = "";
     this.rfqProperty3 = "";
@@ -59,7 +61,12 @@ export class RfqSendComponent implements OnInit {
     var seconds = dateTemp.getSeconds();
     rfqHeader.timestamp = "";
     rfqHeader.roledefinition = "popuprole:closerole";
-    rfqHeader.routingtargets = "popuprole:damon";
+    if (this.isPopup) {
+      rfqHeader.routingtargets = "popuprole:damon";
+    } else {
+      rfqHeader.routingtargets = "closerole:damon";
+    }
+
 
     var rfqProperty1 = new RfqProperty();
     rfqProperty1.rfqId = this.rfqId;
